@@ -13,6 +13,10 @@
 		54F6FF5D298AC77B00AC7F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F6FF5B298AC77B00AC7F91 /* Main.storyboard */; };
 		54F6FF5F298AC77C00AC7F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F6FF5E298AC77C00AC7F91 /* Assets.xcassets */; };
 		54F6FF62298AC77C00AC7F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F6FF60298AC77C00AC7F91 /* LaunchScreen.storyboard */; };
+		54F6FF6A298AC79900AC7F91 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F6FF69298AC79900AC7F91 /* ProfileView.xib */; };
+		54F6FF6C298AC81000AC7F91 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F6FF6B298AC81000AC7F91 /* ProfileView.swift */; };
+		54F6FF6E298AC90300AC7F91 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F6FF6D298AC90300AC7F91 /* Profile.storyboard */; };
+		54F6FF70298AC92900AC7F91 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F6FF6F298AC92900AC7F91 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		54F6FF5E298AC77C00AC7F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54F6FF61298AC77C00AC7F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54F6FF63298AC77C00AC7F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F6FF69298AC79900AC7F91 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		54F6FF6B298AC81000AC7F91 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		54F6FF6D298AC90300AC7F91 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		54F6FF6F298AC92900AC7F91 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				54F6FF5E298AC77C00AC7F91 /* Assets.xcassets */,
 				54F6FF60298AC77C00AC7F91 /* LaunchScreen.storyboard */,
 				54F6FF63298AC77C00AC7F91 /* Info.plist */,
+				54F6FF69298AC79900AC7F91 /* ProfileView.xib */,
+				54F6FF6B298AC81000AC7F91 /* ProfileView.swift */,
+				54F6FF6D298AC90300AC7F91 /* Profile.storyboard */,
+				54F6FF6F298AC92900AC7F91 /* ProfileViewController.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -125,7 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F6FF6A298AC79900AC7F91 /* ProfileView.xib in Resources */,
 				54F6FF62298AC77C00AC7F91 /* LaunchScreen.storyboard in Resources */,
+				54F6FF6E298AC90300AC7F91 /* Profile.storyboard in Resources */,
 				54F6FF5F298AC77C00AC7F91 /* Assets.xcassets in Resources */,
 				54F6FF5D298AC77B00AC7F91 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F6FF6C298AC81000AC7F91 /* ProfileView.swift in Sources */,
 				54F6FF5A298AC77B00AC7F91 /* ViewController.swift in Sources */,
+				54F6FF70298AC92900AC7F91 /* ProfileViewController.swift in Sources */,
 				54F6FF56298AC77B00AC7F91 /* AppDelegate.swift in Sources */,
 				54F6FF58298AC77B00AC7F91 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,8 +303,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX83P862UK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -314,8 +332,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX83P862UK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
